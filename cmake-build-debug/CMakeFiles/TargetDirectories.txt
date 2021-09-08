@@ -1,0 +1,3 @@
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/cmake-build-debug/CMakeFiles/IT2001_2002_L1.dir
