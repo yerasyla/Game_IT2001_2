@@ -129,6 +129,30 @@ IT2001_2002_L1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/build
 .PHONY : IT2001_2002_L1/fast
 
+Character.o: Character.cpp.o
+.PHONY : Character.o
+
+# target to build an object file
+Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Character.cpp.o
+.PHONY : Character.cpp.o
+
+Character.i: Character.cpp.i
+.PHONY : Character.i
+
+# target to preprocess a source file
+Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Character.cpp.i
+.PHONY : Character.cpp.i
+
+Character.s: Character.cpp.s
+.PHONY : Character.s
+
+# target to generate assembly for a file
+Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Character.cpp.s
+.PHONY : Character.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... IT2001_2002_L1"
+	@echo "... Character.o"
+	@echo "... Character.i"
+	@echo "... Character.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
