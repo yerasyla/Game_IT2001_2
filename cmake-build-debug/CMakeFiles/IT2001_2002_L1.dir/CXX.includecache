@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Character.h
+string
+-
+
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Game.cpp
+Game.h
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Game.h
+
 /Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Game.h
 iostream
 -
-
-/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/main.cpp
-Game.h
-/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Game.h
+string
+-
+Character.h
+/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Character.h
 

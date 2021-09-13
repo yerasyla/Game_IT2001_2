@@ -1,11 +1,13 @@
 #ifndef IT2001_2002_L1_CHARACTER_H
 #define IT2001_2002_L1_CHARACTER_H
-#include "Game.h"
-
+#include <string>
+using namespace std;
 
 class Character {
 public:
+
     Character();
+
     virtual ~Character();
 
     const string &getName() const;
@@ -31,7 +33,8 @@ public:
     int getExp() const;
 
     void setExp(int exp);
-
+    string getInfo();
+    void gainExp(int exp);
 
 private:
     string name;
@@ -40,6 +43,7 @@ private:
     int atk;
     int level;
     int exp;
+
 
 };
 

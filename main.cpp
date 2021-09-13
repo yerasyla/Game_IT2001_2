@@ -7,6 +7,5 @@ int main() {
         game.mainMenu();
     }
 
-    //std::cout << "Hello, World!" << std::endl;
     return 0;
 }
