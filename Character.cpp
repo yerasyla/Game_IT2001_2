@@ -10,7 +10,6 @@ Character::Character() {
 
 }
 
-
 Character::~Character() {}
 
 string Character::getInfo(){
