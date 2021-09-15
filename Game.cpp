@@ -44,7 +44,11 @@ void Game::playMenu() {
 
                 break;
             case 1: {
-                character.gainExp(200);
+                character.gainExp(200);//free exp
+
+                Item item("Wooden sword", 1);
+                //Item  item2 =
+                character.getInventory().addItem(item);
                 break;
             }
             case 2:

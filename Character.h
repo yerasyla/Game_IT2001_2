@@ -1,6 +1,8 @@
 #ifndef IT2001_2002_L1_CHARACTER_H
 #define IT2001_2002_L1_CHARACTER_H
 #include <string>
+#include "Inventory.h"
+
 using namespace std;
 
 class Character {
@@ -36,6 +38,8 @@ public:
     string getInfo();
     void gainExp(int exp);
 
+    Inventory getInventory() const;
+
 private:
     string name;
     int maxHP;
@@ -43,7 +47,7 @@ private:
     int atk;
     int level;
     int exp;
-
+    Inventory inventory;
 
 };
 

@@ -14,8 +14,16 @@ Character::~Character() {}
 
 string Character::getInfo(){
     string string1;
+    string inventoryString ="";
+
+    for(int i=0; i<inventory.getNumOfItems(); i++) {
+        //Inventory list of items
+        inventoryString=inventoryString+"\n" +inventory.getArrItems()[i]->getName()+to_string(inventory.getArrItems()[i]->getAtk());
+    }
+
     string1 = "Name: "+name+ +"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+"\n"
-            +"atk: "+ to_string(atk)+"\n"+ "exp: " + to_string(exp)+"\n"+ "level: "+to_string(level);
+            +"atk: "+ to_string(atk)+"\n"+ "exp: " + to_string(exp)+"\n"+ "level: "+to_string(level)
+            + "\n"+inventoryString + inventory.getArrItems()[0]->getName();
 
 
     return string1;
@@ -25,12 +33,14 @@ string Character::getInfo(){
 //level
 void Character::gainExp(int exp) {
     this->exp = this->exp + exp;
-    if (exp>=level*100){
+    if (this->exp>=level*100){
         level++;
-        exp=0;
+        this->exp=0;
     }
+    maxHP=maxHP+5;
+    HP=maxHP;
+    atk = atk+1;
 
-    //TODO increase stats
 }
 
 
@@ -83,6 +93,10 @@ int Character::getExp() const {
 
 void Character::setExp(int exp) {
     Character::exp = exp;
+}
+
+Inventory Character::getInventory() const {
+    return inventory;
 }
 
 

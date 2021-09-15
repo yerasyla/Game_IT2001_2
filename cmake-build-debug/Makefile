@@ -177,6 +177,54 @@ Game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+Inventory.o: Inventory.cpp.o
+.PHONY : Inventory.o
+
+# target to build an object file
+Inventory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Inventory.cpp.o
+.PHONY : Inventory.cpp.o
+
+Inventory.i: Inventory.cpp.i
+.PHONY : Inventory.i
+
+# target to preprocess a source file
+Inventory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Inventory.cpp.i
+.PHONY : Inventory.cpp.i
+
+Inventory.s: Inventory.cpp.s
+.PHONY : Inventory.s
+
+# target to generate assembly for a file
+Inventory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Inventory.cpp.s
+.PHONY : Inventory.cpp.s
+
+Item.o: Item.cpp.o
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IT2001_2002_L1.dir/build.make CMakeFiles/IT2001_2002_L1.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +264,12 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... Inventory.o"
+	@echo "... Inventory.i"
+	@echo "... Inventory.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -3,12 +3,25 @@
 
 CMakeFiles/IT2001_2002_L1.dir/Character.cpp.o: \
  ../Character.cpp \
- ../Character.h
+ ../Character.h \
+ ../Inventory.h \
+ ../Item.h
 CMakeFiles/IT2001_2002_L1.dir/Game.cpp.o: \
  ../Character.h \
  ../Game.cpp \
- ../Game.h
+ ../Game.h \
+ ../Inventory.h \
+ ../Item.h
+CMakeFiles/IT2001_2002_L1.dir/Inventory.cpp.o: \
+ ../Inventory.cpp \
+ ../Inventory.h \
+ ../Item.h
+CMakeFiles/IT2001_2002_L1.dir/Item.cpp.o: \
+ ../Item.cpp \
+ ../Item.h
 CMakeFiles/IT2001_2002_L1.dir/main.cpp.o: \
  ../Character.h \
  ../Game.h \
+ ../Inventory.h \
+ ../Item.h \
  ../main.cpp

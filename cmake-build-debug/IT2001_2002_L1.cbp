@@ -92,6 +92,18 @@
 		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Game.h">
 			<Option target="IT2001_2002_L1"/>
 		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Inventory.cpp">
+			<Option target="IT2001_2002_L1"/>
+		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Inventory.h">
+			<Option target="IT2001_2002_L1"/>
+		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Item.cpp">
+			<Option target="IT2001_2002_L1"/>
+		</Unit>
+		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/Item.h">
+			<Option target="IT2001_2002_L1"/>
+		</Unit>
 		<Unit filename="/Users/yerasylamanbek/CLionProjects/IT2001_2002_L1/main.cpp">
 			<Option target="IT2001_2002_L1"/>
 		</Unit>
