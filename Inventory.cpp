@@ -33,12 +33,12 @@ void Inventory::initialize(int from){
     }
 }
 
-void Inventory::addItem(const Item &item){
+void Inventory::addItem(Item item1){
     if (cap<numOfItems){
         expand();
     }
 
-    arrItems[numOfItems++] =  new Item(item);
+    this->arrItems[this->numOfItems++] =  new Item(item1.getName(), item1.getAtk());
 }
 
 Item **Inventory::getArrItems() const {

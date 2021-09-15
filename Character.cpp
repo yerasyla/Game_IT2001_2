@@ -23,7 +23,7 @@ string Character::getInfo(){
 
     string1 = "Name: "+name+ +"\n"+"HP: "+ to_string(HP)+"/"+ to_string(maxHP)+"\n"
             +"atk: "+ to_string(atk)+"\n"+ "exp: " + to_string(exp)+"\n"+ "level: "+to_string(level)
-            + "\n"+inventoryString + inventory.getArrItems()[0]->getName();
+            + "\n"+inventory.getArrItems()[1]->getName();
 
 
     return string1;

@@ -12,7 +12,7 @@ public:
     int getCap() const;
 
     int getNumOfItems() const;
-    void addItem(const Item &item);
+    void addItem(Item item);
 
     //Item items[]; //static
 
